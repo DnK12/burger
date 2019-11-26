@@ -307,11 +307,14 @@ template {
   box-sizing: content-box; }
 
 html {
+  height: 100vh;
   line-height: 1.42; }
 
 .container {
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  width: 1100px;
+  width: 950px;
   margin: auto; }
 
 a {
@@ -369,13 +372,14 @@ li {
   font-style: normal; }
 .arrow-down {
   display: block;
-  margin: auto;
+  margin: 0 auto;
+  margin-top: auto;
   width: 29px;
   height: 14px;
   background: url(/img/header/arrow-scroll.svg) center center no-repeat; }
 
 .best {
-  background: #fdf7f3 url("/img/best/bg.png") center center no-repeat;
+  background: #fdf7f3 url("/img/best/bg.png") center center no-repeat/cover;
   text-align: center;
   min-height: 650px; }
 
@@ -436,8 +440,12 @@ li {
   flex-wrap: wrap;
   position: relative; }
 
+.feedback__item {
+  width: 25%; }
+
 .feedback__pic {
-  vertical-align: top; }
+  vertical-align: top;
+  object-fit: cover; }
 
 .feedback__elem {
   position: relative;
@@ -473,18 +481,14 @@ li {
 
 .header {
   color: white;
-  width: 100%;
-  min-height: 650px;
-  background: url(/img/header/texture.png) center center, black url(/img/header/video-bg.png) center center no-repeat; }
+  background: url(/img/header/texture.png) center center/cover no-repeat, black url(/img/header/bg.jpg.png) center center/cover no-repeat; }
 
 .header__menu {
-  display: flex;
-  padding: 0 80px; }
+  display: flex; }
 
 .header__title {
   display: flex;
   padding: 0 70px;
-  margin-bottom: 90px;
   align-items: center; }
 
 .header__left {
@@ -499,19 +503,14 @@ li {
   text-transform: lowercase; }
 
 .logo {
-  margin-right: 70px;
-  margin-top: 12px; }
-
-.navigation {
-  margin: 30px 15px;
-  margin-left: 0; }
+  margin-right: auto; }
 
 .navigation__list {
   display: flex;
   justify-content: space-around;
   align-items: center; }
 
-.navigation__item:last-child .navigation__link:after {
+.navigation__item:last-child::after {
   display: none; }
 
 .navigation__link {
@@ -520,7 +519,7 @@ li {
   text-transform: uppercase;
   font-size: 13px; }
 
-.navigation__link:after {
+.navigation__item:after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -531,7 +530,9 @@ li {
   border-radius: 50%; }
 
 .sidebar {
-  align-self: flex-start; }
+  position: fixed;
+  top: 90px;
+  right: 52px; }
 
 .sidebar__item {
   margin-bottom: 5px; }
@@ -551,3 +552,7 @@ li {
   font-family: 'gagalin';
   font-size: 50px;
   text-transform: uppercase; }
+
+.sections {
+  height: 100vh;
+  min-height: 650px; }

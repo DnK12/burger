@@ -1,5 +1,8 @@
 .sidebar {
-  align-self: flex-start; }
+  position: fixed;
+  top: 90px;
+  right: 52px;
+}
   .sidebar__item {
     margin-bottom: 5px; }
   .sidebar__link {

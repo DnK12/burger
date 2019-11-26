@@ -1,11 +1,16 @@
 .feedback {
   background-color: #cfd8dc; }
-  .feedback__list {
+.feedback__list {
     display: flex;
     flex-wrap: wrap;
     position: relative; }
-  .feedback__pic {
-    vertical-align: top; }
+.feedback__item{
+  width: 25%;
+}
+.feedback__pic {
+    vertical-align: top;
+    object-fit: cover;
+  }
   .feedback__elem {
     position: relative;
     top: 0;
