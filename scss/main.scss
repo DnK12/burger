@@ -1,5 +1,15 @@
 //setup
+@import "./layout/mixin";
+@import "./layout/normalize";
 @import "./layout/layout";
 @import "./layout/fonts";
 //blocks
+@import "./blocks/arrow-down";
+@import "./blocks/best";
+@import "./blocks/button";
+@import "./blocks/feedback";
 @import "./blocks/header";
+@import "./blocks/logo";
+@import "./blocks/navigation";
+@import "./blocks/sidebar";
+@import "./blocks/title";

@@ -1,0 +1,34 @@
+.feedback {
+  background-color: #cfd8dc; }
+  .feedback__list {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative; }
+  .feedback__pic {
+    vertical-align: top; }
+  .feedback__elem {
+    position: relative;
+    top: 0;
+    left: 0; }
+    .feedback__elem:hover .feedback__hover {
+      opacity: 1; }
+  .feedback__hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    font-size: 14px;
+    transition: 1s;
+    padding: 20px 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); }
+    .feedback__hover h4 {
+      font-family: Gagalin;
+      font-weight: 400;
+      margin-bottom: 30px; }
+    .feedback__hover p {
+      font-weight: 300; }
+    .feedback__hover:hover {
+      z-index: 10; }

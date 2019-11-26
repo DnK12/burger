@@ -1,0 +1,27 @@
+.best {
+  background: #fdf7f3 url("/img/best/bg.png") center center no-repeat;
+  text-align: center;
+  min-height: 650px; }
+  .best__container {
+    padding-top: 130px; }
+  .best__title h2 {
+    color: #2f3234;
+    margin-bottom: 55px; }
+  .best__list {
+    display: flex;
+    justify-content: space-around; }
+  .best__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 285px; }
+    .best__item h3 {
+      font-family: Lifehack;
+      font-size: 24px;
+      font-weight: 500; }
+    .best__item p {
+      opacity: 0.8;
+      color: #2f3234;
+      font-family: Ubuntu;
+      font-size: 14px;
+      font-weight: 300; }
