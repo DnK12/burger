@@ -1,0 +1,16 @@
+.sidebar {
+  position: fixed;
+  top: 90px;
+  right: 52px;
+}
+  .sidebar__item {
+    margin-bottom: 5px; }
+  .sidebar__link {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("/img/header/Ellipse_2.png") center center no-repeat;
+    border-radius: 50%;
+    border: 1px solid transparent; }
+    .sidebar__link:hover {
+      border-color: white; }

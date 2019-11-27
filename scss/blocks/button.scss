@@ -1,0 +1,17 @@
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  margin: 20px 0px;
+  padding: 13px 22px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: 1s;
+  background-color: #e45028; }
+  .button:hover {
+    background-color: #c1401e; }
+  .button_more {
+    background-color: #2f3234; }
+    .button_more:hover {
+      background-color: #1f2122; }

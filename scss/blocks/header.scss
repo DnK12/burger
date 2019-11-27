@@ -1,7 +1,28 @@
-.header{
-    width: 100% ;
-    height: 300px;
-    background-color: black;
-    background-image: url('../img/team.jpg'); // !!! путь прописывается относително скомпилированного файла main.css который и подлкючается к странице
-    background-repeat: no-repeat;
+.header {
+color: white;   
+background: 
+url(/img/header/texture.png) center center /cover no-repeat,
+ black url(/img/header/bg.jpg.png) center center / cover no-repeat;
+ }
+.header__container{
+  justify-content: space-around;
+}    
+.header__menu {
+  display: flex;
+}
+.header__title {
+ display: flex;
+ padding: 0 70px;
+ align-items: center; 
+}
+.header__left {
+ margin-right: 11px; 
+}
+.header__right h2 {
+  color: #f9b43b; 
+}
+.header__right p {
+ font-family: "lifehack";
+ font-size: 65px;
+text-transform: lowercase; 
 }
