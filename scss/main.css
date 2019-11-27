@@ -601,6 +601,10 @@ li {
 .team__radio {
   display: none; }
 
+.team__item {
+  display: flex;
+  align-items: center; }
+
 .team__item-title {
   font-family: Gagalin;
   font-size: 14px;
@@ -613,3 +617,20 @@ li {
     border: 6px solid transparent;
     border-top-color: #f9b43b;
     border-bottom-width: 0; }
+
+.team__hidden {
+  height: 0;
+  overflow: hidden;
+  display: flex; }
+
+.team__avatar {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%; }
+
+.team__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; }
