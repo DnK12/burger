@@ -527,8 +527,7 @@ li {
 
 .navigation__item {
   display: flex;
-  align-items: center;
-  margin-right: 15px; }
+  align-items: center; }
 
 .navigation__item:after {
   content: "";
@@ -539,6 +538,9 @@ li {
   height: 3px;
   background: white;
   border-radius: 50%;
+  margin-left: 15px; }
+
+.navigation__button {
   margin-left: 15px; }
 
 .sidebar {
@@ -568,3 +570,46 @@ li {
 .sections {
   height: 100vh;
   min-height: 650px; }
+
+.team {
+  color: white;
+  position: relative;
+  background: gray url("../img/team/SBS_1255-X2.png") center center/cover no-repeat; }
+
+.team__title {
+  color: #f9b43b;
+  text-align: center; }
+
+.team__bg {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 51%;
+  right: 0;
+  bottom: 0;
+  background-color: #2f3234;
+  opacity: 0.93; }
+
+.team__accordeon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.team__radio {
+  display: none; }
+
+.team__item-title {
+  font-family: Gagalin;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center; }
+  .team__item-title:before {
+    content: "";
+    display: block;
+    border: 6px solid transparent;
+    border-top-color: #f9b43b;
+    border-bottom-width: 0; }

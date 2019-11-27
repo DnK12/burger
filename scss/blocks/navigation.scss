@@ -19,7 +19,7 @@
 .navigation__item{
   display: flex;
   align-items: center;
-  margin-right: 15px;
+  
 }
 .navigation__item:after {
   content: "";
@@ -30,5 +30,8 @@
   height: 3px;
   background: white;
   border-radius: 50%;
+  margin-left: 15px;
+}
+.navigation__button{
   margin-left: 15px;
 }
