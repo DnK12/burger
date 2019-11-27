@@ -4,7 +4,9 @@ background:
 url(/img/header/texture.png) center center /cover no-repeat,
  black url(/img/header/bg.jpg.png) center center / cover no-repeat;
  }
-    
+.header__container{
+  justify-content: space-around;
+}    
 .header__menu {
   display: flex;
 }
