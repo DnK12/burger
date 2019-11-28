@@ -23,8 +23,20 @@
   }
   .best__icon{
     margin-bottom: 20px;
-    height: 75px;
   }
+  .best__svg{
+    height: 75px;
+    &_meat{
+      fill: $meat;
+    }
+    &_hand{
+      fill: $yellow;
+    }
+    &_natural{
+      fill: $green;
+    }
+  }
+
     .best__item-title {
       font-family: Lifehack;
       font-size: 24px;

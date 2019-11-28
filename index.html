@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="./scss/main.css">
 
   <title>Mr. Burger</title>
@@ -97,7 +98,9 @@
           <ul class="best__list">
             <li class="best__item">
               <div class="best__icon">
-                <img src="./img/best/meat.svg" alt="иконка свежего мяса">
+                <svg  alt="иконка свежего мяса" class="best__svg best__svg_meat">
+                  <use xlink:href="./img/svg/sprite.svg#meat"></use>
+                </svg>
               </div>
               <h3 class="best__item-title">100% свежее мясо</h3>
               <p class="best__paragraph">Драма представляет собой деструктивный цикл. Анапест представляет собой
@@ -105,7 +108,9 @@
             </li>
             <li class="best__item">
               <div class="best__icon">
-                <img src="./img/best/hand.svg" alt="иконка ручной сборки">
+                <svg  alt="иконка ручной сборки" class="best__svg best__svg_hand">
+                    <use xlink:href="./img/svg/sprite.svg#hand"></use>
+                </svg>
               </div>
               <h3 class="best__item-title">Ручная сборка</h3>
               <p class="best__paragraph">Драма представляет собой деструктивный цикл. Анапест представляет собой
@@ -114,7 +119,9 @@
             </li>
             <li class="best__item">
               <div class="best__icon">
-                <img src="./img/best/natural.svg" alt="иконка натуральных ингридиентов">
+                <svg  alt="иконка натуральных ингридиентов" class="best__svg best__svg_natural">
+                    <use xlink:href="./img/svg/sprite.svg#natural"></use>
+                </svg>
               </div>
               <h3 class="best__item-title">Натуральные
                 ингредиенты</h3>
@@ -198,15 +205,15 @@
         <h2 class="title title_color_white menu__title">Меню</h2>
         <ul class="menu__accordeon">
           <li class="menu__item">
-            <button class="menu__button title">Для Мясоедов</button>
+            <button class="menu__button"><span class="menu__butoon-title  ">Для Мясоедов</span></button>
             <p class="menu__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fuga velit est dolorem ut excepturi corporis optio. Suscipit exercitationem, cupiditate illum ducimus voluptatem voluptate doloremque amet. Repellendus sit modi quidem.Beatae ullam voluptate reiciendis veniam maxime? Numquam dicta enim fugiat quod sunt magni sint modi voluptas aliquid asperiores totam, et vero. Iure ex doloribus repellat incidunt asperiores veniam non iusto.</p>
           </li>
           <li class="menu__item">
-              <button class="menu__button"></button>
+              <button class="menu__button"><span class="menu__butoon-title ">Вегетарианское</span></button>
               <p class="menu__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fuga velit est dolorem ut excepturi corporis optio. Suscipit exercitationem, cupiditate illum ducimus voluptatem voluptate doloremque amet. Repellendus sit modi quidem.Beatae ullam voluptate reiciendis veniam maxime? Numquam dicta enim fugiat quod sunt magni sint modi voluptas aliquid asperiores totam, et vero. Iure ex doloribus repellat incidunt asperiores veniam non iusto.</p>
             </li>
             <li class="menu__item">
-                <button class="menu__button"></button>
+                <button class="menu__button"><span class="menu__butoon-title ">Диетическое</span></button>
                 <p class="menu__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fuga velit est dolorem ut excepturi corporis optio. Suscipit exercitationem, cupiditate illum ducimus voluptatem voluptate doloremque amet. Repellendus sit modi quidem.Beatae ullam voluptate reiciendis veniam maxime? Numquam dicta enim fugiat quod sunt magni sint modi voluptas aliquid asperiores totam, et vero. Iure ex doloribus repellat incidunt asperiores veniam non iusto.</p>
               </li>
         </ul>
@@ -323,6 +330,47 @@
 
 
 
+      </section>
+      <section class="sections contacts">
+        <img src="/img/contacts/Layer_4.png" alt="" class="contacts__map">
+        <div class="contacts__container">
+          <ul class="contacts__left">
+            <li class="contacts__adress">
+              Санкт-Петербург, ул.Бабушкина, д.12/1, 15
+            </li>
+            <li class="contacts__adress">
+              <a href="tel:+78123771377" class="contacts__telephone">+7 (812) 377-13-77</a>
+            </li>
+          </ul>
+          <div class="contacts__right">
+            <ui class="social">
+              <li class="social__item">
+                <svg class="social__svg social__svg_vk">
+                  <use xlink:href="./img/svg/sprite.svg#vk"></use>
+                </svg>
+
+              </li>
+              <li class="social__item">
+                <svg class="social__svg social__svg_fb">
+                  <use xlink:href="./img/svg/sprite.svg#fb"></use>
+                </svg>
+
+              </li>
+              <li class="social__item">
+                <svg class="social__svg social__svg_inst">
+                  <use xlink:href="./img/svg/sprite.svg#inst"></use>
+                </svg>
+
+              </li>
+              <li class="social__item">
+                <svg class="social__svg social__svg_twitter">
+                  <use xlink:href="./img/svg/sprite.svg#twitter"></use>
+                </svg>
+
+              </li>
+            </ui>
+          </div>
+        </div>
       </section>
     </main>
   </div>

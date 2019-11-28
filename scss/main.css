@@ -409,8 +409,16 @@ li {
   flex-basis: 285px; }
 
 .best__icon {
-  margin-bottom: 20px;
+  margin-bottom: 20px; }
+
+.best__svg {
   height: 75px; }
+  .best__svg_meat {
+    fill: #e25028; }
+  .best__svg_hand {
+    fill: #f9b43b; }
+  .best__svg_natural {
+    fill: #8ac03e; }
 
 .best__item-title {
   font-family: Lifehack;
@@ -686,7 +694,8 @@ title
 .menu {
   background: gray url("../img/menu/photo-1428660386617-8d277e7deaf2.png") center center/cover no-repeat;
   position: relative;
-  display: flex; }
+  display: flex;
+  color: white; }
 
 .menu__title {
   margin: 7% 12%; }
@@ -698,17 +707,58 @@ title
   bottom: 0;
   background-color: #2f3234;
   opacity: 0.93;
-  display: flex; }
+  display: flex;
+  z-index: 9; }
 
 .menu__item {
-  height: 100%; }
+  height: 100%;
+  display: flex;
+  width: 80; }
 
 .menu__button {
   width: 80px;
   height: 100%;
   border: none;
-  background: url("/img/menu/photo-1428660386617-8d277e7deaf2.png"); }
+  background: url("../img/menu/photo-1466814314367-45323ac74e2b.jpg.png") center center/cover no-repeat; }
 
 .menu__paragraph {
   width: 0;
   overflow: hidden; }
+
+.contacts {
+  position: relative; }
+
+.contacts__map {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; }
+
+.contacts__container {
+  position: absolute;
+  color: white;
+  top: 90%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #121212;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.contacts__telephone {
+  color: #e45028;
+  font-weight: 700; }
+
+.social {
+  display: flex; }
+
+.social__svg {
+  height: 20px;
+  width: 23px;
+  fill: white;
+  opacity: 0.3;
+  transition: 1s; }
+  .social__svg:hover {
+    opacity: 1; }
