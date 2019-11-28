@@ -20,7 +20,14 @@
   justify-content: space-between;
   align-items: center;
 }
+.contacts__svg{
+  height: 11px;
+  width: 12px;
+  fill:$phone;
+  margin-right: 5px;
+}
 .contacts__telephone{
-  color: #e45028;
+  color: $phone;
   font-weight: 700;
 }
+

@@ -747,12 +747,22 @@ title
   justify-content: space-between;
   align-items: center; }
 
+.contacts__svg {
+  height: 11px;
+  width: 12px;
+  fill: #e35028;
+  margin-right: 5px; }
+
 .contacts__telephone {
-  color: #e45028;
+  color: #e35028;
   font-weight: 700; }
 
 .social {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
+
+.social__link {
+  display: block; }
 
 .social__svg {
   height: 20px;
