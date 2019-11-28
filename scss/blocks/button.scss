@@ -8,7 +8,9 @@
   text-transform: uppercase;
   border-radius: 10px;
   transition: 1s;
-  background-color:  $orange; }
+  cursor: pointer;
+  background-color:  $orange; 
+}
   .button:hover {
     background-color:  $dark_orange; }
   .button_more {

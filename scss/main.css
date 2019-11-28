@@ -433,6 +433,7 @@ li {
   text-transform: uppercase;
   border-radius: 10px;
   transition: 1s;
+  cursor: pointer;
   background-color: #e45028; }
 
 .button:hover {
@@ -696,7 +697,17 @@ title
   right: 0;
   bottom: 0;
   background-color: #2f3234;
-  opacity: 0.93; }
+  opacity: 0.93;
+  display: flex; }
+
+.menu__item {
+  height: 100%; }
+
+.menu__button {
+  width: 80px;
+  height: 100%;
+  border: none;
+  background: url("/img/menu/photo-1428660386617-8d277e7deaf2.png"); }
 
 .menu__paragraph {
   width: 0;
