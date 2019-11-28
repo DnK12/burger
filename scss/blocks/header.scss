@@ -1,27 +1,29 @@
 .header {
-color: white;   
+color: $white;   
 background: 
 url(../img/header/texture.png) center center /cover no-repeat,
- black url(../img/header/bg.jpg.png) center center / cover no-repeat;
+ $black url(../img/header/bg.jpg.png) center center / cover no-repeat;
  }
 .header__container{
-  justify-content: space-around;
+  justify-content: space-between;
 }    
 .header__menu {
   display: flex;
 }
 .header__title {
  display: flex;
- padding: 0 70px;
  align-items: center; 
 }
+title
 .header__left {
+  width: 50%;
+  flex-shrink: 0;
  margin-right: 11px; 
 }
 .header__right h2 {
-  color: #f9b43b; 
+  
 }
-.header__right p {
+.header__text{
  font-family: "lifehack";
  font-size: 65px;
 text-transform: lowercase; 

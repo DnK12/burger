@@ -1,5 +1,5 @@
 .feedback {
-  background-color: #cfd8dc; }
+  background-color: $light_gray; }
 .feedback__list {
   height: 100%;
 display: flex;
@@ -36,7 +36,7 @@ position: relative;
     font-size: 14px;
     transition: 1s;
     padding: 20px 30px;
-    color: white;
+    color: $white;
     background: rgba(0, 0, 0, 0.5); }
     .feedback__hover h4 {
       font-family: Gagalin;

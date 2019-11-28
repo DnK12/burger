@@ -8,10 +8,10 @@
   text-transform: uppercase;
   border-radius: 10px;
   transition: 1s;
-  background-color: #e45028; }
+  background-color:  $orange; }
   .button:hover {
-    background-color: #c1401e; }
+    background-color:  $dark_orange; }
   .button_more {
-    background-color: #2f3234; }
+    background-color: $dark_gray; }
     .button_more:hover {
-      background-color: #1f2122; }
+      background-color: $light_black; }
