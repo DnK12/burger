@@ -3,7 +3,7 @@
     box-sizing: content-box; }
   
   html {
-    height: 100vh;
+    height: 100%;
     line-height: 1.42; }
     
   
@@ -19,6 +19,7 @@
     color: inherit; }
   
   body {
+    height: 100%;
     font-family: 'ubuntu', helvetica, "sans-serif";
     font-size: 16px; }
   

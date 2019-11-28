@@ -1,27 +1,39 @@
 .best {
   background: $white_bg url("../img/best/bg.png") center center no-repeat /cover;
   text-align: center;
-  min-height: 650px; }
+  min-height: 650px; 
+}
   .best__container {
-    padding-top: 130px; }
-  .best__title h2 {
-    color:  $dark_gray;
-    margin-bottom: 55px; }
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+  .best__title {
+    margin-bottom: 55px; 
+  }
   .best__list {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+   }
   .best__item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 285px; }
-    .best__item h3 {
+    flex-basis: 285px; 
+  }
+  .best__icon{
+    margin-bottom: 20px;
+    height: 75px;
+  }
+    .best__item-title {
       font-family: Lifehack;
       font-size: 24px;
-      font-weight: 500; }
-    .best__item p {
+      font-weight: 500; 
+    }
+    .best__paragraph {
       opacity: 0.8;
       color:  $dark_gray;
       font-family: Ubuntu;
       font-size: 14px;
-      font-weight: 300; }
+      font-weight: 300; 
+    }

@@ -1,8 +1,12 @@
 .title {
   font-family: 'gagalin';
-  font-size: 50px;
+  font-size: 75px;
   text-transform: uppercase;
+  color:  $dark_gray;
  }
  .title_color_yellow{
   color: $yellow; 
+ }
+ .title_color_white{
+   color: $white;
  }

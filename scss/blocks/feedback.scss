@@ -38,11 +38,11 @@ position: relative;
     padding: 20px 30px;
     color: $white;
     background: rgba(0, 0, 0, 0.5); }
-    .feedback__hover h4 {
+    .feedback__hover-title {
       font-family: Gagalin;
       font-weight: 400;
       margin-bottom: 30px; }
-    .feedback__hover p {
+    .feedback__paragraph {
       font-weight: 300; }
     .feedback__hover:hover {
       z-index: 10; }
