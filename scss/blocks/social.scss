@@ -1,0 +1,15 @@
+
+.social{
+  display: flex;
+  
+}
+.social__svg{
+  height: 20px;
+  width: 23px;
+  fill: $white;
+  opacity: 0.3;
+  transition: 1s;
+  &:hover{
+    opacity: 1;
+  }
+}

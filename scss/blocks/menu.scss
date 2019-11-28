@@ -1,0 +1,35 @@
+.menu{
+  background: $gray url("../img/menu/photo-1428660386617-8d277e7deaf2.png") center center / cover no-repeat;
+  position: relative;
+  display: flex;
+  color: $white;
+}
+.menu__title{
+  margin: 7% 12%;
+}
+.menu__accordeon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $dark_gray;
+  opacity: 0.93;
+  display: flex;
+  z-index: 9;
+}
+.menu__item{
+  height: 100%;
+  display: flex;
+  width: 80;
+}
+.menu__button{
+  width: 80px;
+  height: 100%;
+  border: none;
+  background: url("../img/menu/photo-1466814314367-45323ac74e2b.jpg.png") center center / cover no-repeat;
+}
+
+.menu__paragraph{
+  width: 0;
+  overflow: hidden;
+}
