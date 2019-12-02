@@ -205,7 +205,7 @@
         <h2 class="title title_color_white menu__title">Меню</h2>
         <ul class="menu__accordeon">
           <li class="menu__item">
-            <button class="menu__button"><span class="menu__butoon-title  ">Для Мясоедов</span></button>
+            <button class="menu__button menu__button_bg_meat"><span class="menu__butoon-title  ">Для Мясоедов</span></button>
             <p class="menu__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fuga velit est
               dolorem ut excepturi corporis optio. Suscipit exercitationem, cupiditate illum ducimus voluptatem
               voluptate doloremque amet. Repellendus sit modi quidem.Beatae ullam voluptate reiciendis veniam maxime?
@@ -213,7 +213,7 @@
               doloribus repellat incidunt asperiores veniam non iusto.</p>
           </li>
           <li class="menu__item">
-            <button class="menu__button"><span class="menu__butoon-title ">Вегетарианское</span></button>
+            <button class="menu__button menu__button_bg_veget"><span class="menu__butoon-title ">Вегетарианское</span></button>
             <p class="menu__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fuga velit est
               dolorem ut excepturi corporis optio. Suscipit exercitationem, cupiditate illum ducimus voluptatem
               voluptate doloremque amet. Repellendus sit modi quidem.Beatae ullam voluptate reiciendis veniam maxime?
@@ -221,7 +221,7 @@
               doloribus repellat incidunt asperiores veniam non iusto.</p>
           </li>
           <li class="menu__item">
-            <button class="menu__button"><span class="menu__butoon-title ">Диетическое</span></button>
+            <button class="menu__button menu__button_bg_diet"><span class="menu__butoon-title ">Диетическое</span></button>
             <p class="menu__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fuga velit est
               dolorem ut excepturi corporis optio. Suscipit exercitationem, cupiditate illum ducimus voluptatem
               voluptate doloremque amet. Repellendus sit modi quidem.Beatae ullam voluptate reiciendis veniam maxime?
@@ -337,64 +337,72 @@
           </li>
         </ul>
       </section>
-      <section class="sections dekivery">
-        <div class="container">
-            <h2 class="title title_color_yellow">Закажите доставку</h2>
-            <form>
+      <section class="sections delivery">
+        <div class="containern delivery__container">
+            <h2 class="title title_color_yellow delivery__title">Закажите доставку</h2>
+            <form class="delivery__form form">
               <div class="form__left">
                 <div class="form__row">
-                  <label>Имя
+                  <label class="form__input-label">
+                    <div class="form__input-title">Имя</div>
                     <input type="text" class="form__input">
                   </label>
-                  <label>Телефон
+                  <label class="form__input-label">
+                    <div class="form__input-title">Телефон</div>
                     <input type="tel" class="form__input">
                   </label>
                 </div>
                 <div class="form__row">
-                  <label>Улица
+                  <label class="form__input-label">
+                    <div class="form__input-title">Улица</div>
                     <input type="text" class="form__input">
                   </label>
                 </div>
                 <div class="form__row">
-                  <label>Дом
+                  <label class="form__input-label">
+                    <div class="form__input-title">Дом</div>
                     <input type="text" class="form__input">
                   </label>
-                  <label>Корпус
+                  <label class="form__input-label">
+                    <div class="form__input-title">Корпус</div>
                     <input type="text" class="form__input">
                   </label>
-                  <label>Квартира
+                  <label class="form__input-label">
+                    <div class="form__input-title">Квартира</div>
                     <input type="text" class="form__input">
                   </label>
-                  <label>Этаж
+                  <label class="form__input-label">
+                    <div class="form__input-title">Этаж</div>
                     <input type="text" class="form__input">
                   </label>
                 </div>
               </div>
               <div class="form__right">
                 <div class="form__row">
-                    <label>Комментарий
-                        <textarea type="text" class="form__input"></textarea>
+                    <label class="form__input-label">
+                      <div class="form__input-title">Комментарий</div>
+                        <textarea type="text" class="form__input form__input_textarea"></textarea>
                     </label>
                 </div>
                 <div class="form__row">
-                    <label>
+                    <label class="form__radio-label">
                         <input type="radio" name="pay" class="form__radio">
-                        Потребуется Сдача
+                        <div class="form__radio-title">Потребуется Сдача</div>
                     </label>
-                    <label>
+                    <label class="form__radio-label">
                         <input type="radio" name="pay" class="form__radio">
-                        Оплата по карте
+                        <div class="form__radio-title">Оплата по карте</div>
                       </label>
                 </div>
                 <div class="form__row">
-                    <label>
-                        <input type="text" class="form__input">
-                        Не перезванивать
+                    <label class="form__checkbox-label">
+                        <input type="checkbox" class="form__checkbox">
+                        <div class="form__checkbox-title">Не перезванивать</div>
                       </label>
                 </div>
                 <div class="form__row">
                   <button class="button">Заказать</button>
-                  <button type="reset" class="button">Очистить</button>
+                  <button type="reset" class="button button_colorbg_transparent">Очистить</button>
                 </div>
               </div>
             </form>

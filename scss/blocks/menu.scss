@@ -23,10 +23,21 @@
   width: 80;
 }
 .menu__button{
-  width: 80px;
+  width: rem(80px);
   height: 100%;
   border: none;
-  background: url("../img/menu/photo-1466814314367-45323ac74e2b.jpg.png") center center / cover no-repeat;
+  background: center center / cover no-repeat;
+  &_bg{
+    &_meat{
+      background-image: url("../img/menu/photo-1428660386617-8d277e7deaf2.png");
+    }
+    &_veget{
+      background-image: url("../img/menu/photo-1466814314367-45323ac74e2b.jpg.png");
+    }
+    &_diet{
+      background-image: url("/img/menu/photo-1468071174046-657d9d351a40.jpg.png");
+    }
+  }
 }
 
 .menu__paragraph{

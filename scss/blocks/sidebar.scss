@@ -1,21 +1,21 @@
 .sidebar {
   position: fixed;
-  top: 90px;
-  right: 52px;
+  top: rem(90px);
+  right: rem(52px);
   z-index: 10;
 }
 
 .sidebar__item {
-  margin-bottom: 5px;
+  margin-bottom: rem(5px);
 }
 
 .sidebar__link {
   display: block;
-  width: 16px;
-  height: 16px;
+  width: rem(16px);
+  height: rem(16px);
   background: url("../img/header/Ellipse_2.png") center center no-repeat;
   border-radius: 50%;
-  border: 1px solid transparent;
+  border: rem(1px) solid transparent;
 }
 
 .sidebar__link:hover,

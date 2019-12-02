@@ -1,3 +1,4 @@
+//color
 $white:white;
 $white_bg:#fdf7f3;
 $light_gray:#cfd8dc;
@@ -5,9 +6,15 @@ $gray: gray;
 $dark_gray: #2f3234;
 $light_black:#1f2122;
 $black:#000;
+$black_bg:#121212;
 $yellow:#f9b43b;
 $meat:#e25028;
 $orange:#e45028;
 $dark_orange:#c1401e;
 $phone:#e35028;
 $green:#8ac03e;
+//color
+
+@function rem($px){
+  @return $px / 16px + 0rem;
+}

@@ -14,17 +14,17 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color:  #121212;
+  background-color:  $black_bg;
   padding: 0 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .contacts__svg{
-  height: 11px;
-  width: 12px;
+  height: rem(11px);
+  width: rem(12px);
   fill:$phone;
-  margin-right: 5px;
+  margin-right: rem(5px);
 }
 .contacts__telephone{
   color: $phone;

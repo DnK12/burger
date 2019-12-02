@@ -4,7 +4,7 @@
   background: $gray url("../img/team/SBS_1255-X2.png")center center /cover no-repeat;
 }
 .team__title{
-  margin-bottom: 50px;;
+  margin-bottom: rem(50px);;
   text-align: center;
 }
 .team__bg{
@@ -33,23 +33,23 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 35px;
+  margin-bottom: rem(35px);
   
 }
 .team__item-title{
   font-family: Gagalin;
-  font-size: 14px;
+  font-size: rem(14px);
   font-weight: 400;
   display: flex;
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: rem(20px);
   &:before{
     content: "";
     display: block;
-    border: 6px solid transparent;
+    border: rem(6px) solid transparent;
     border-top-color: $yellow; 
     border-bottom-width: 0;
-    margin-right: 10px;
+    margin-right: rem(10px);
   }
 }
 
@@ -60,7 +60,7 @@
 }
 .team__item_checked{
   & .team__hidden{
-  height: 100px;
+  height: rem(100px);
   }
   & .team__item-title{
     color:$yellow;
@@ -68,28 +68,28 @@
       border-top-color: transparent;
       border-top-width: 0;
       border-bottom-color: $yellow;
-      border-bottom-width: 6px;
+      border-bottom-width: rem(6px);
     }
   }
 }
 .team__position{
-  width: 210px;
+  width: rem(210px);
 
 }
 .team__hidden-title{
   font-weight: 700;
-  font-size: 14px;
+  font-size: rem(14px);
 }
 .team__paragraph{
   font-weight: 300;
-  font-style: 14px;
+  font-style: rem(14px);
 }
 .team__avatar{
-  width: 100px;
-  height: 100px;
+  width: rem(100px);
+  height: rem(100px);
   overflow: hidden;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: rem(20px);
 }
 .team__photo{
   width: 100%;

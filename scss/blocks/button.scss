@@ -2,18 +2,27 @@
 .button {
   display: inline-block;
   vertical-align: middle;
-  font-size: 13px;
-  margin: 20px 0px;
-  padding: 13px 22px;
+  font-size: rem(13px);
+  color: inherit;
+  border: none;
+  margin: rem(20px) rem(0px);
+  padding: rem(13px) rem(22px);
   text-transform: uppercase;
-  border-radius: 10px;
+  border-radius: rem(10px);
   transition: 1s;
   cursor: pointer;
   background-color:  $orange; 
-}
-  .button:hover {
+  &:hover {
     background-color:  $dark_orange; }
-  .button_more {
-    background-color: $dark_gray; }
-    .button_more:hover {
+  &_more {
+    background-color: $dark_gray;
+    &:hover {
       background-color: $light_black; }
+   }
+  &_colorbg_transparent{
+    background-color: transparent;
+    &:hover{
+      background-color: transparent; 
+    }
+  }
+}

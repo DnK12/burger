@@ -1,0 +1,17 @@
+.delivery{
+  background: $black_bg url(../img/form/2-layers.png) center center /cover no-repeat;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.delivery__container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.delivery__title{
+  margin-bottom: rem(45px);
+  text-align: center;
+}

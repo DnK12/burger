@@ -1,7 +1,7 @@
 .best {
   background: $white_bg url("../img/best/bg.png") center center no-repeat /cover;
   text-align: center;
-  min-height: 650px; 
+  
 }
   .best__container {
     display: flex;
@@ -9,7 +9,7 @@
     justify-content: center; 
   }
   .best__title {
-    margin-bottom: 55px; 
+    margin-bottom: rem(55px);; 
   }
   .best__list {
     display: flex;
@@ -19,13 +19,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 285px; 
+    flex-basis: rem(285px); 
   }
   .best__icon{
-    margin-bottom: 20px;
+    margin-bottom: rem(20px);
   }
   .best__svg{
-    height: 75px;
+    height: rem(75px);
     &_meat{
       fill: $meat;
     }
@@ -39,13 +39,13 @@
 
     .best__item-title {
       font-family: Lifehack;
-      font-size: 24px;
+      font-size: rem(24px);
       font-weight: 500; 
     }
     .best__paragraph {
       opacity: 0.8;
       color:  $dark_gray;
       font-family: Ubuntu;
-      font-size: 14px;
+      font-size: rem(14px);
       font-weight: 300; 
     }
