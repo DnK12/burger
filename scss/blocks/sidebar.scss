@@ -22,3 +22,8 @@
 .sidebar__link_active{
   border-color: $white;
 }
+@include tablets{
+  .sidebar{
+    display: none;
+  }
+}

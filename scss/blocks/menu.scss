@@ -39,8 +39,17 @@
     }
   }
 }
-
-.menu__paragraph{
+.menu__butoon-title{
+  text-align: left;
+  transform: rotate(-90deg);
+}
+.menu__hidden{
   width: 0;
   overflow: hidden;
+}
+.menu__item_active .menu__hidden{
+  width: rem(600px);
+}
+.menu__paragraph{
+  padding: 5%;
 }

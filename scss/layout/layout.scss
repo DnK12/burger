@@ -7,12 +7,7 @@
     line-height: 1.42; }
     
   
-  .container {
-    display: flex;
-    flex-direction: column ;
-    height: 100%;
-    width: rem(940px);
-    margin: auto; }
+  
   
   a {
     text-decoration: none;
@@ -21,7 +16,9 @@
   body {
     height: 100%;
     font-family: 'ubuntu', helvetica, "sans-serif";
-    font-size: 16px; }
+    font-size: 16px;
+    overflow-x:hidden; 
+  }
   
   img {
     display: inline-block;
@@ -39,4 +36,19 @@
   li {
     list-style: none; }
   
- 
+  .container {
+    display: flex;
+    flex-direction: column ;
+    height: 100%;
+    width: 940px;
+    margin: auto;
+   }
+@include tablets{
+  .container{
+    width: $tablets;
+  }
+  html{
+    font-size:15px;
+  }
+}
+    

@@ -14,17 +14,25 @@ url(../img/header/texture.png) center center /cover no-repeat,
  display: flex;
  align-items: center; 
 }
-title
 .header__left {
   width: 50%;
   flex-shrink: 0;
  margin-right: rem(11px); 
 }
-.header__right h2 {
-  
-}
 .header__text{
  font-family: "lifehack";
  font-size: rem(65px);
-text-transform: lowercase; 
+ text-transform: lowercase; 
+}
+@include tablets{
+  .header__menu{
+    margin: 0 3%;
+  }
+  .header__title{
+    flex-direction: column;
+  }
+  .header__text{
+    padding: 0 20%;
+    text-align: center;
+  }
 }
