@@ -52,3 +52,11 @@ position: relative;
     height: 25%;
   }
 }
+@include phones{
+  .feedback__hover-title{
+    font-size: rem(24px) ;
+  }
+  .feedback__paragraph{
+    display: none;
+  }
+}

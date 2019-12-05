@@ -30,4 +30,14 @@
   color: $phone;
   font-weight: 700;
 }
-
+@include phones{
+  .contacts__container{
+    flex-direction: column;
+  }
+   .contacts__adress{
+     align-items: center;
+   }
+  .contacts__right{
+    width: 100%;
+  }
+}

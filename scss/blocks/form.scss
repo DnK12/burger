@@ -33,6 +33,7 @@
 .form__checkbox-label{
   display: flex;
   align-items: center;
+ 
   width: 30%;
   
 }
@@ -55,4 +56,15 @@
   width: 95%;
 }
 
+}
+@include phones{
+  .form__radio-label,
+.form__checkbox-label{
+  width: 100%;
+  justify-content: center;
+}
+.form__row-buttons{
+  display: flex;
+  justify-content: center;
+}
 }

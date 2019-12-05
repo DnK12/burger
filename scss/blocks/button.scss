@@ -16,6 +16,9 @@
     background-color:  $dark_orange; }
   &_more {
     background-color: $dark_gray;
+    &:before{
+      content: "Подробнее";
+    }
     &:hover {
       background-color: $light_black; }
    }
@@ -24,5 +27,10 @@
     &:hover{
       background-color: transparent; 
     }
+  }
+}
+@include phones{
+  .button_more:before{
+    content: "Читать отзыв";
   }
 }

@@ -37,3 +37,12 @@ url(../img/header/texture.png) center center /cover no-repeat,
     text-align: center;
   }
 }
+@include phones{
+  .header__menu{
+    margin: 0;
+    margin-right: 15%;
+  }
+  .header__text{
+    padding: 0 ;
+  }
+}

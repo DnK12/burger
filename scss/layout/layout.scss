@@ -54,7 +54,7 @@
     
 @include phones{
   .container{
-    width: $phones;
+    width: 320px;
   }
   html{
     font-size:12px;
