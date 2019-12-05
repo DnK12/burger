@@ -978,14 +978,30 @@ li {
   align-items: center;
   width: 30%; }
 
-.form__radio-button {
-  height: 0.9375rem;
-  width: 0.9375rem;
+.form__radio-button,
+.form__checkbox-button {
+  cursor: pointer;
+  background: white;
+  width: 0.875rem;
+  height: 0.875rem;
   margin-right: 5%; }
+
+.form__radio-button {
+  border-radius: 50%; }
+
+.form__radio:checked + .form__radio-button {
+  background: white url(../img/svg/Ellipse_5.svg) center center no-repeat; }
+
+.form__checkbox:checked + .form__checkbox-button {
+  background: white url(../img/svg/w128h1281338911632checkmark2.png) center center no-repeat; }
 
 .form__radio,
 .form__checkbox {
   display: none; }
+
+.form__radio
+.form__radio:before {
+  border-radius: 50%; }
 
 @media screen and (max-width: 768px) {
   .form {
