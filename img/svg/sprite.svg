@@ -1,4 +1,4 @@
-<symbol xmlns="http://www.w3.org/2000/svg">
+<symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <symbol id="meat" viewBox="0 0 96.428 89.246">
 <g>
 	<polygon  points="38.477,4.84 38.47,4.841 38.477,4.841 	"/>
@@ -1423,7 +1423,7 @@
 		<clipPath id="SVGID_2_">
 			<use xlink:href="#SVGID_1_"  overflow="visible"/>
 		</clipPath>
-		<path clip-path="url(#SVGID_2_)"  d="M124.523,64.503c-0.152-0.328-0.293-0.597-0.426-0.816
+		<path clip-path="url(#SVGID_2_)" fill="#FFFFFF"	 d="M124.523,64.503c-0.152-0.328-0.293-0.597-0.426-0.816
 			c-2.172-3.91-6.324-8.711-12.449-14.401l-0.129-0.134l-0.066-0.063l-0.066-0.066h-0.063c-2.781-2.651-4.543-4.434-5.281-5.344
 			c-1.348-1.738-1.652-3.5-0.914-5.281c0.523-1.348,2.477-4.19,5.867-8.538c1.781-2.302,3.195-4.149,4.234-5.539
 			c7.52-9.996,10.777-16.383,9.777-19.164l-0.387-0.649c-0.262-0.39-0.934-0.75-2.02-1.074c-1.086-0.327-2.477-0.383-4.172-0.163
@@ -1479,5 +1479,17 @@
 	c0-1.604,0.445-2.696,2.746-2.696l2.934-0.001V5.764c-0.508-0.067-2.249-0.219-4.275-0.219c-4.23,0-7.127,2.582-7.127,7.323v4.086
 	h-4.784v5.541h4.784v14.216H2.026C0.907,36.711,0,35.805,0,34.686V2.026C0,0.907,0.907,0,2.026,0h32.659
 	c1.119,0,2.026,0.907,2.026,2.026V34.686z"/>
+</symbol>
+<symbol id="radio" viewBox="0 0 15 15">
+	 <g><g><path fill="#fff" d="M7.493.014a7.496 7.496 0 0 1 7.493 7.499c0 4.142-3.355 7.5-7.493 7.5A7.496 7.496 0 0 1 0 7.512 7.496 7.496 0 0 1 7.493.014z"/></g></g>
+</symbol>
+<symbol id="radio_check" viewBox="0 0 16 15">
+	<g><g><path fill="#fff" d="M8.334.014a7.496 7.496 0 0 1 7.493 7.499c0 4.142-3.354 7.5-7.493 7.5a7.496 7.496 0 0 1-7.492-7.5A7.496 7.496 0 0 1 8.334.014z"/></g><g><path fill="#e35028" d="M8.503 4.014a3.502 3.502 0 0 1 3.504 3.499c0 1.933-1.569 3.5-3.504 3.5a3.502 3.502 0 0 1-3.504-3.5c0-1.933 1.569-3.5 3.504-3.5z"/></g></g>
+</symbol>
+<symbol id="checkbox" viewbox="0 0 15 15">
+	<g><g><path fill="#fff" d="M0 .009h15.028v14.998H0z"/></g></g>
+</symbol>
+<symbol id="checkbox_checked" viewbox="0 0 15 15">
+	<g><g><path fill="#fff" d="M0 .009h15.028v14.998H0z"/></g><g><image width="11" height="9" transform="translate(2 3)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAJCAYAAADkZNYtAAAA4ElEQVQoU4WQsUoDcQzGvxBcu0nppk9QpKDg0KWzr9CtHP9w71DwFY5LuN7o1L1TcVBwFBHHLgXRB+hUynEX6XEtR0HNluSXfF9C+CfMbObu18x8S3+xaZpOiGi2Z4jo61fYzK7c/a217KWGVfUJwKeIjPd5nufdoihWADoN/CEifVLVVwCDRmocQnhQ1TWAiwbcMnMviqINmdmju4+axg7AO4Cbg3xVVYM4jms7tQ0ze3b34emxRHQXQlgc6jWcZdlZWZbfAM5bA1MRuW8vOH4jSZJLZl4C6AKYi8jkVOkHXZJKDDYycqgAAAAASUVORK5CYII="/></g></g>
 </symbol>
 </svg>

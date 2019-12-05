@@ -1,5 +1,5 @@
 .menu{
-  background: $gray url("../img/menu/photo-1428660386617-8d277e7deaf2.png") center center / cover no-repeat;
+  background: $gray url("../img/menu/menu_bg.png") center center / cover no-repeat;
   position: relative;
   display: flex;
   color: $white;
@@ -20,27 +20,35 @@
 .menu__item{
   height: 100%;
   display: flex;
-  width: 80;
+  
 }
 .menu__button{
+  position: relative;
   width: rem(80px);
   height: 100%;
   border: none;
   background: center center / cover no-repeat;
   &_bg{
     &_meat{
-      background-image: url("../img/menu/photo-1428660386617-8d277e7deaf2.png");
+      background-image: url("../img/menu/meat.png");
     }
     &_veget{
-      background-image: url("../img/menu/photo-1466814314367-45323ac74e2b.jpg.png");
+      background-image: url("../img/menu/veget.png");
     }
     &_diet{
-      background-image: url("/img/menu/photo-1468071174046-657d9d351a40.jpg.png");
+      background-image: url("/img/menu/diet.png");
     }
   }
 }
 .menu__butoon-title{
+  position: absolute;
+
   text-align: left;
+  white-space: nowrap;
+  bottom:10%;
+  left:0;
+  right: 0;
+ 
   transform: rotate(-90deg);
 }
 .menu__hidden{
@@ -49,6 +57,9 @@
 }
 .menu__item_active .menu__hidden{
   width: rem(600px);
+}
+.menu__item_active .menu__button-title{
+ color: $yellow;
 }
 .menu__paragraph{
   padding: 5%;

@@ -33,6 +33,13 @@
 .form__checkbox-label{
   display: flex;
   align-items: center;
+  width: 30%;
+  
+}
+.form__radio-button{
+  height: rem(15px);
+  width: rem(15px);
+  margin-right: 5%;
 }
 .form__radio,
 .form__checkbox{

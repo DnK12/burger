@@ -18,8 +18,9 @@
   .best__item {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    flex-basis: 33%; 
+    width:  30%; 
   }
   .best__icon{
     margin-bottom: rem(20px);
@@ -49,3 +50,12 @@
       font-size: rem(14px);
       font-weight: 300; 
     }
+@include phones{
+  .best__list{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .best__item{
+    width: 90%;
+  }
+}

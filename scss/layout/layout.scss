@@ -16,7 +16,7 @@
   body {
     height: 100%;
     font-family: 'ubuntu', helvetica, "sans-serif";
-    font-size: 16px;
+    font-size: rem(16px);
     overflow-x:hidden; 
   }
   
@@ -48,7 +48,16 @@
     width: $tablets;
   }
   html{
-    font-size:15px;
+    font-size:14px;
+  }
+}
+    
+@include phones{
+  .container{
+    width: $phones;
+  }
+  html{
+    font-size:12px;
   }
 }
     

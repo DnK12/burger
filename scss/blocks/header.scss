@@ -9,6 +9,7 @@ url(../img/header/texture.png) center center /cover no-repeat,
 }    
 .header__menu {
   display: flex;
+  justify-content: space-between;
 }
 .header__title {
  display: flex;
