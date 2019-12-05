@@ -4,7 +4,40 @@
   right: rem(52px);
   z-index: 10;
 }
-
+.sidebar__link-burger{
+  display: none;
+}
+.sidebar__burger{
+  display: block;
+  position: relative;
+  width: rem(24px);
+  height: rem(4px);
+  background-color: $white;
+  border-radius: 2px;
+  &:after{
+    content: "";
+    position: absolute;
+    top: rem(7px);
+    width: rem(24px);
+    height: rem(4px);
+    background-color: $white;
+    border-radius: 2px;
+  }
+  &:before{
+    content: "";
+    position: absolute;
+    top: rem(14px);
+    width: rem(24px);
+    height: rem(4px);
+    background-color: $white;
+    border-radius: 2px;
+  }
+}
+.sidebar__link-burger{
+  display: none;
+  align-items: center;
+  height: rem(20px);
+}
 .sidebar__item {
   margin-bottom: rem(5px);
 }
@@ -24,6 +57,13 @@
 }
 @include tablets{
   .sidebar{
+    top: rem(25px);
+    right: rem(33px);
+  }
+  .sidebar__list{
     display: none;
+  }
+  .sidebar__link-burger{
+    display: flex;
   }
 }

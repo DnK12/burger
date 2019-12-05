@@ -40,16 +40,16 @@
     }
   }
 }
-.menu__butoon-title{
+.menu__button-title{
   position: absolute;
-
+  color: white;
   text-align: left;
   white-space: nowrap;
-  bottom:10%;
+  bottom:0;
   left:0;
   right: 0;
  
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) translate(50%);
 }
 .menu__hidden{
   width: 0;

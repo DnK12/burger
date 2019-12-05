@@ -598,35 +598,6 @@ li {
 .navigation__button {
   margin-left: 0.9375rem; }
 
-.navigation__burger {
-  display: block;
-  position: relative;
-  width: 1.5rem;
-  height: 0.25rem;
-  background-color: white;
-  border-radius: 2px; }
-  .navigation__burger:after {
-    content: "";
-    position: absolute;
-    top: 0.4375rem;
-    width: 1.5rem;
-    height: 0.25rem;
-    background-color: white;
-    border-radius: 2px; }
-  .navigation__burger:before {
-    content: "";
-    position: absolute;
-    top: 0.875rem;
-    width: 1.5rem;
-    height: 0.25rem;
-    background-color: white;
-    border-radius: 2px; }
-
-.navigation__link-burger {
-  display: none;
-  align-items: center;
-  height: 1.25rem; }
-
 @media screen and (max-width: 768px) {
   .navigation__item {
     display: none; }
@@ -638,6 +609,38 @@ li {
   top: 5.625rem;
   right: 3.25rem;
   z-index: 10; }
+
+.sidebar__link-burger {
+  display: none; }
+
+.sidebar__burger {
+  display: block;
+  position: relative;
+  width: 1.5rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 2px; }
+  .sidebar__burger:after {
+    content: "";
+    position: absolute;
+    top: 0.4375rem;
+    width: 1.5rem;
+    height: 0.25rem;
+    background-color: white;
+    border-radius: 2px; }
+  .sidebar__burger:before {
+    content: "";
+    position: absolute;
+    top: 0.875rem;
+    width: 1.5rem;
+    height: 0.25rem;
+    background-color: white;
+    border-radius: 2px; }
+
+.sidebar__link-burger {
+  display: none;
+  align-items: center;
+  height: 1.25rem; }
 
 .sidebar__item {
   margin-bottom: 0.3125rem; }
@@ -656,7 +659,14 @@ li {
 
 @media screen and (max-width: 768px) {
   .sidebar {
-    display: none; } }
+    top: 1.5625rem;
+    right: 2.0625rem; }
+
+  .sidebar__list {
+    display: none; }
+
+  .sidebar__link-burger {
+    display: flex; } }
 .title {
   font-family: 'gagalin';
   font-size: 4.6875rem;
@@ -812,14 +822,15 @@ li {
   .menu__button_bg_diet {
     background-image: url("../img/menu/diet.png"); }
 
-.menu__butoon-title {
+.menu__button-title {
   position: absolute;
+  color: white;
   text-align: left;
   white-space: nowrap;
-  bottom: 10%;
+  bottom: 0;
   left: 0;
   right: 0;
-  transform: rotate(-90deg); }
+  transform: rotate(-90deg) translate(50%); }
 
 .menu__hidden {
   width: 0;
