@@ -810,7 +810,7 @@ li {
   .menu__button_bg_veget {
     background-image: url("../img/menu/veget.png"); }
   .menu__button_bg_diet {
-    background-image: url("/img/menu/diet.png"); }
+    background-image: url("../img/menu/diet.png"); }
 
 .menu__butoon-title {
   position: absolute;
